@@ -19,7 +19,7 @@ def tel_con():
 #Compiles and prints
 def printInfo(addr):
      ip = addr
-     info = (str(i) + "| " + time.strftime("%d/%m/%Y") + " [" + time.strftime("%H:%M:%S") + "]" + " - " + str(ip))
+     info = (time.strftime("%d/%m/%Y") + " [" + time.strftime("%H:%M:%S") + "]" + " - " + str(ip))
      print info
      oFile(info)
 
